@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#version 1.0 - Written by Alfredo Jo ® - 2025
+#version 1.0 - Written by Alfredo Jo ® - 2025 - tested on Mac OS 26.1 (25B78)
 
 #fail safe statement
 set -euo pipefail
