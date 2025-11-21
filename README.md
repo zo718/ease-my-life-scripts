@@ -3,7 +3,7 @@
 
 
 A collection of simple, practical, and time-saving scripts created to automate the repetitive tasks that slow me down.  
-These scripts exist for one purpose: **to make life easier** — whether it's system cleanup, network checks, file management, or everyday workflow shortcuts.
+These scripts exist for one purpose: **to make my life easier** — whether it's system cleanup, network checks, file management, or everyday workflow shortcuts.
 
 ---
 
