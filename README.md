@@ -3,7 +3,8 @@
 
 
 A collection of simple, practical, and time-saving scripts created to automate the repetitive tasks that slow me down.  
-These scripts exist for one purpose: **to make my life easier** — whether it's system cleanup, network checks, file management, or everyday workflow shortcuts.
+These scripts exist for one purpose: **to make my life easier** — whether it's system cleanup, network checks, file management, or everyday workflow shortcuts.\
+You can find additional scripts in the [Network Infra as Code](https://github.com/zo718/network_infra_as_code) repo under the scripts directory. Those are more tailored for network and Linux automation.
 
 ---
 
@@ -55,7 +56,7 @@ This repo is mostly for personal use, but if you want to suggest improvements or
 
 ## 💬 Final Thoughts
 
-Automation isn’t about laziness — it’s about working smarter.  
+Automation isn’t about laziness, it’s about working smarter.  
 If a small script can save time or prevent frustration, it belongs here.
 
 Enjoy, tweak, and keep life easy. 😄
