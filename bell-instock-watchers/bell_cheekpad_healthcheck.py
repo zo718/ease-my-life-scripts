@@ -1,13 +1,4 @@
 #!/usr/bin/env python3
-# Health check for the watcher (daily email).
-# - Runs as a oneshot systemd service + timer.
-# - Use a systemd drop-in for credentials:
-#   sudo mkdir -p /etc/systemd/system/bell_cheekpad_healthcheck.service.d
-#   sudo nano /etc/systemd/system/bell_cheekpad_healthcheck.service.d/override.conf
-#   [Service]
-#   Environment=GMAIL_ADDRESS=alfredo.jo82@gmail.com
-#   Environment=NOTIFY_TO=alfredo.jo82@gmail.com
-#   Environment=GMAIL_APP_PASSWORD=your_app_password_here
 import argparse
 import json
 import os

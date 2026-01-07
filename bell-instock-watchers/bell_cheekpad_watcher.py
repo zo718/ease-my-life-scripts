@@ -1,16 +1,4 @@
 #!/usr/bin/env python3
-# Bell cheek pad watcher
-# - Runs as a oneshot systemd service + timer (see companion .service/.timer files).
-# - Configure credentials via a systemd drop-in instead of hardcoding in the service:
-#   sudo mkdir -p /etc/systemd/system/bell_cheekpad_watcher.service.d
-#   sudo nano /etc/systemd/system/bell_cheekpad_watcher.service.d/override.conf
-#   [Service]
-#   Environment=GMAIL_ADDRESS=alfredo.jo82@gmail.com
-#   Environment=NOTIFY_TO=alfredo.jo82@gmail.com
-#   Environment=GMAIL_APP_PASSWORD=your_app_password_here
-# - Manual test:
-#   GMAIL_ADDRESS=alfredo.jo82@gmail.com NOTIFY_TO=alfredo.jo82@gmail.com \
-#   GMAIL_APP_PASSWORD='your_app_password_here' python3 /home/ajo/my-git-repos/ease-my-life-scripts/bell-instock-watchers/bell_cheekpad_watcher.py
 import argparse
 import json
 import os
