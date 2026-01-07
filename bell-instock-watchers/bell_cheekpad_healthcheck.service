@@ -1,0 +1,8 @@
+[Unit]
+Description=Bell cheek pad watcher health check
+
+[Service]
+Type=oneshot
+User=ajo
+WorkingDirectory=/home/ajo/my-git-repos/ease-my-life-scripts/bell-instock-watchers
+ExecStart=/usr/bin/python3 /home/ajo/my-git-repos/ease-my-life-scripts/bell-instock-watchers/bell_cheekpad_healthcheck.py

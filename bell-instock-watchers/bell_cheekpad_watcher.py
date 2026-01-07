@@ -10,7 +10,7 @@
 #   Environment=GMAIL_APP_PASSWORD=your_app_password_here
 # - Manual test:
 #   GMAIL_ADDRESS=alfredo.jo82@gmail.com NOTIFY_TO=alfredo.jo82@gmail.com \
-#   GMAIL_APP_PASSWORD='your_app_password_here' python3 bell_cheekpad_watcher.py
+#   GMAIL_APP_PASSWORD='your_app_password_here' python3 /home/ajo/my-git-repos/ease-my-life-scripts/bell-instock-watchers/bell_cheekpad_watcher.py
 import argparse
 import json
 import os
