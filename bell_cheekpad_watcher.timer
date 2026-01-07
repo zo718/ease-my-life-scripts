@@ -1,0 +1,10 @@
+[Unit]
+Description=Run Bell cheek pad availability watcher every 20 minutes
+
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=20min
+Unit=bell_cheekpad_watcher.service
+
+[Install]
+WantedBy=timers.target

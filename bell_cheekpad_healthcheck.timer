@@ -1,0 +1,10 @@
+[Unit]
+Description=Daily Bell cheek pad watcher health check
+
+[Timer]
+OnBootSec=10min
+OnUnitActiveSec=24h
+Unit=bell_cheekpad_healthcheck.service
+
+[Install]
+WantedBy=timers.target
