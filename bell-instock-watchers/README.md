@@ -21,13 +21,13 @@ email when the 25MM M-L cheek pads appear available. Includes a daily health che
 1) Ensure Python is installed:
    - `python3 --version`
 2) Copy this folder to your CentOS box:
-   - `/home/ajo/my-git-repos/ease-my-life-scripts/bell-instock-watchers`
+   - `~/my-git-repos/ease-my-life-scripts/bell-instock-watchers`
 3) Confirm the service paths inside:
    - `bell_cheekpad_watcher.service`
    - `bell_cheekpad_healthcheck.service`
 4) Install with the helper script:
    - Edit `install.sh` and set `APP_PASSWORD=your_app_password`
-   - `bash /home/ajo/my-git-repos/ease-my-life-scripts/bell-instock-watchers/install.sh`
+   - `bash ~/my-git-repos/ease-my-life-scripts/bell-instock-watchers/install.sh`
 
 ## Security note (recommended)
 This uses systemd drop-in files so the Gmail app password does not live in version control.
@@ -41,12 +41,12 @@ Run once to confirm it can reach the page and email you:
 GMAIL_ADDRESS=your_email@example.com \
 NOTIFY_TO=your_email@example.com \
 GMAIL_APP_PASSWORD='your_app_password_here' \
-python3 /home/ajo/my-git-repos/ease-my-life-scripts/bell-instock-watchers/bell_cheekpad_watcher.py
+python3 ~/my-git-repos/ease-my-life-scripts/bell-instock-watchers/bell_cheekpad_watcher.py
 ```
 
 ## Logs and state
-- Log file: `/home/ajo/my-git-repos/ease-my-life-scripts/bell-instock-watchers/bell_cheekpad_watcher.log`
-- State file: `/home/ajo/my-git-repos/ease-my-life-scripts/bell-instock-watchers/bell_cheekpad_watcher_state.json`
+- Log file: `~/my-git-repos/ease-my-life-scripts/bell-instock-watchers/bell_cheekpad_watcher.log`
+- State file: `~/my-git-repos/ease-my-life-scripts/bell-instock-watchers/bell_cheekpad_watcher_state.json`
 
 ## Troubleshooting
 - If no emails arrive:
